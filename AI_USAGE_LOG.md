@@ -4,16 +4,15 @@
 
 | Member | Role          | Tools           | ~% code AI-assisted | Interpretation cells AI-assisted? |
 | ------ | ------------- | --------------- | ------------------- | --------------------------------- |
-| [Name] | Data Engineer | Claude, Copilot | ~60%                | No                                |
-| ...    |               |                 |                     |                                   |
+|    |               |                 |                     |                                   |
 
 ## Per-Member Detail
 
-### Member A — [Name]
+### Member A — [Amila Zahira]
 
 | #   | Task | Tool | Prompt | How output was used |
 | --- | ---- | ---- | ------ | ------------------- |
-| 1   | ...  | ...  | ...    | ...                 |
+
 
 _(repeat for all five members)_
 
