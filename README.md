@@ -31,7 +31,7 @@ Berapa probabilitas sebuah Pull Request (PR) baru akan membutuhkan waktu lebih d
 ### 1. Clone Repositori
 ```bash
 git clone https://github.com/stat-audit-kubernetes-sti-2025.git
-cd stat-audit-k8s-sti-2025
+cd stat-audit-kubernetes-sti-2025
 ```
 
 ### 2. Install Dependensi
@@ -50,6 +50,6 @@ jupyter notebook
 |---------|-------|----------|
 | Muhammad Asrofi Syaikho - 1519625049 | Data Engineer (Member A) | `01_eda.ipynb` |
 | Amila Zahira - 1519625003 | Estimation Analyst (Member B) | `02_estimation.ipynb` |
-| Nabila Nurfajriyasah - 1519625045 | Inference Analyst (Member C) | `03_confidence_interval.ipynb` |
-| Mukgot Ega Sahputra - 1519625002 | Hypothesis Analyst (Member D) | `04_hypothesis_testing.ipynb` |
+| Mukgot Ega Sahputra - 1519625002 | Inference Analyst (Member C) | `03_confidence_interval.ipynb` |
+| Nabila Nurfajriyasah - 1519625045 | Hypothesis Analyst (Member D) | `04_hypothesis_testing.ipynb` |
 | Farhan Nabil Widodo - 1519625067 | Computation Analyst (Member E) | `05_simulation.ipynb` |
