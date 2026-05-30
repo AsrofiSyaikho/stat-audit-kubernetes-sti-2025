@@ -21,7 +21,7 @@ Berapa probabilitas sebuah Pull Request (PR) baru akan membutuhkan waktu lebih d
 
 ## Findings
 
-> | Akan diisi setelah semua layer selesai pada 10 Juni 2026
+> Akan diisi setelah semua layer selesai pada 10 Juni 2026
 
 ---
 
@@ -30,7 +30,7 @@ Berapa probabilitas sebuah Pull Request (PR) baru akan membutuhkan waktu lebih d
 
 ### 1. Clone Repositori
 ```bash
-git clone [https://github.com/stat-audit-k8s-sti-2025.git](https://github.com/stat-audit-kubernetes-sti-2025.git)
+git clone https://github.com/stat-audit-kubernetes-sti-2025.git
 cd stat-audit-k8s-sti-2025
 ```
 
