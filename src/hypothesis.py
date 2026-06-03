@@ -8,7 +8,6 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
-
 # ─────────────────────────────────────────────
 # FUNGSI UTAMA (spesifikasi Member D)
 # ─────────────────────────────────────────────
@@ -196,8 +195,6 @@ def run_all_tests():
 
     # ─────────────────────────────────────────────────────────────
     # UJI 1 — Z One-Sample
-    # H0: rata-rata waktu resolusi issue = 30 hari
-    # H1: rata-rata waktu resolusi issue > 30 hari
     # ─────────────────────────────────────────────────────────────
     print("\n" + "─" * 65)
     print("UJI 1 (One-Sample Z-Test)")
@@ -218,8 +215,6 @@ def run_all_tests():
 
     # ─────────────────────────────────────────────────────────────
     # UJI 2 — Z One-Sample
-    # H0: rata-rata waktu merge PR = 14 hari
-    # H1: rata-rata waktu merge PR ≠ 14 hari
     # ─────────────────────────────────────────────────────────────
     print("\n" + "─" * 65)
     print("UJI 2 (One-Sample Z-Test)")
@@ -241,8 +236,6 @@ def run_all_tests():
     # ─────────────────────────────────────────────────────────────
     # UJI 3 — Z Two-Sample
     # Membandingkan waktu resolusi issue vs waktu merge PR
-    # H0: mean_issue = mean_pr
-    # H1: mean_issue > mean_pr
     # ─────────────────────────────────────────────────────────────
     print("\n" + "─" * 65)
     print("UJI 3 (Two-Sample Z-Test)")
