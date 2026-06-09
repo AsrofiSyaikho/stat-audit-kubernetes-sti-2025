@@ -5,7 +5,7 @@
 | Member | Role          | Tools           | ~% code AI-assisted | Interpretation cells AI-assisted? |
 | ------ | ------------- | --------------- | ------------------- | --------------------------------- |
 | Muhammad Asrofi Syaikho | Data Engineer | Claude, Gemini | 75% | No |  
-|  |  | |  |  |   
+| Amila Zahira | Estimation Analyst | Claude, Gemini | 65% | No |   
 | Mukgot Ega Sahputra | Inference Analyst | Claude, Gemini | 79% | No |   
 
 ## Per-Member Detail
@@ -28,8 +28,8 @@
 
 | #   | Task | Tool | Prompt | How output was used |
 | --- | ---- | ---- | ------ | ------------------- |
-| 1 | Mencari kesalahan sintaks pada kode Python untuk fungsi interval kepercayaan. | Gemini | "Apakah Penanganan Kasus Ekstrem Statistika (Rule of Three) perlu ditambah pada perhitungan CI bernoulli?" | Logika dari output diadaptasi untuk menangani kasus ekstrem (saat success rate 0 atau 1) agar fungsi perhitungan menjadi lebih robust dan realistis.|  
-| 2 | Membatasi rentang nilai interval agar logis secara statistik | Gemini | "Pada perhitungan Wald interval untuk parameter probabilitas (Bernoulli) dan laju (Poisson), batas bawah bisa menjadi negatif atau batas atas probabilitas bisa melebihi 1. Bagaimana best practice membatasinya di Python?" | Solusi menggunakan komparasi built-in Python diterapkan melalui max(0.0,..) untuk batas bawah dan min(1.0,..) untuk batas atas probabilitas secara langsung pada nilai balikan (return dictionary) di fungsi ci_bernoulli dan ci_poisson.
+| 1 | Membantu mencari tau apa itu Confidence Interval pada konteks Statistika & Probabilitas | Gemini | "Apa itu Confidence Interval dengan konteks berdasarkan dari objektif yang telah di paparkan pada file .MD" | Output digunakan untuk membantu saya memahami apa itu confidence interval agar tidak terjadinya keluar jalur objektif |  
+| 2 | Membantu membuat boilerplate code untuk inference dan confidence_interval | Claude | Generate saya code python dan ipynb mengenai confidence_interval berdasarkan konteks pada file .MD dan objektif research question yang saya berikan | Output digunakan untuk membantu saya membuat file confidence_interval dan inference |
 
 _(repeat for all five members)_
 
