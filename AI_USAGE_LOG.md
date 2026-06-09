@@ -6,7 +6,7 @@
 | ------ | ------------- | --------------- | ------------------- | --------------------------------- |
 | Muhammad Asrofi Syaikho | Data Engineer | Claude, Gemini | 75% | No |  
 |  |  | |  |  |   
-| Mukgot Ega Sahputra |  | Claude, Gemini | 79% | No |   
+| Mukgot Ega Sahputra | Inference Analyst | Claude, Gemini | 79% | No |   
 
 ## Per-Member Detail
 
