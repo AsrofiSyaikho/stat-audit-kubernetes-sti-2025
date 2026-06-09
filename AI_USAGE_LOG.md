@@ -22,6 +22,12 @@
 | 1 | Menyusun struktur fungsi estimator statistik | Claude | "Create reusable estimation functions for Bernoulli, Poisson, and Beta posterior analysis" | Output digunakan sebagai kerangka awal estimator.py lalu disesuaikan dengan formula dan kebutuhan analisis project|  
 | 2 | Membantu pembuatan visualisasi likelihood dan posterior | Claude | "Generate matplotlib code for likelihood and posterior distribution visualization" | Output digunakan sebagai referensi awal visualisasi pada notebook estimasi dan dimodifikasi kembali sesuai 
 
+### Member C — [Mukgot Ega Sahputra]
+
+| #   | Task | Tool | Prompt | How output was used |
+| --- | ---- | ---- | ------ | ------------------- |
+| 1 | Mencari kesalahan sintaks pada kode Python untuk fungsi interval kepercayaan. | Gemini | "Apakah Penanganan Kasus Ekstrem Statistika (Rule of Three) perlu ditambah pada perhitungan CI bernoulli?" | Logika dari output diadaptasi untuk menangani kasus ekstrem (saat success rate 0 atau 1) agar fungsi perhitungan menjadi lebih robust dan realistis.|  
+| 2 | Membatasi rentang nilai interval agar logis secara statistik | Gemini | "Pada perhitungan Wald interval untuk parameter probabilitas (Bernoulli) dan laju (Poisson), batas bawah bisa menjadi negatif atau batas atas probabilitas bisa melebihi 1. Bagaimana best practice membatasinya di Python?" | Solusi menggunakan komparasi built-in Python diterapkan melalui max(0.0,..) untuk batas bawah dan min(1.0,..) untuk batas atas probabilitas secara langsung pada nilai balikan (return dictionary) di fungsi ci_bernoulli dan ci_poisson.
 
 _(repeat for all five members)_
 
