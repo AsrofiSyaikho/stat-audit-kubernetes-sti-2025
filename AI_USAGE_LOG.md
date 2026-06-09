@@ -4,7 +4,9 @@
 
 | Member | Role          | Tools           | ~% code AI-assisted | Interpretation cells AI-assisted? |
 | ------ | ------------- | --------------- | ------------------- | --------------------------------- |
-| Muhammad Asrofi Syaikho | Data Engineer | Claude, Gemini | 75% | No |   
+| Muhammad Asrofi Syaikho | Data Engineer | Claude, Gemini | 75% | No |  
+|  |  | |  |  |   
+| Mukgot Ega Sahputra |  | Claude, Gemini | 79% | No |   
 
 ## Per-Member Detail
 
