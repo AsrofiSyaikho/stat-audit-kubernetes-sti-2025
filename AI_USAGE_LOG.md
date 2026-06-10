@@ -41,7 +41,7 @@
 | #   | Task | Tool | Prompt | How output was used |
 | --- | ---- | ---- | ------ | ------------------- |
 | 1   | Menentukan metode simulasi yang paling relevan untuk estimasi durasi Pull Request (PR) | Gemini | "mana yg paling cocok dari simulasi untuk notebook 1.montecarlo 2.mcmc 3.blumfilter" | Digunakan sebagai bahan pertimbangan ilmiah dalam memilih metode. Hasilnya, Monte Carlo dipilih karena sesuai dengan karakteristik data empiris, sementara MCMC dinilai terlalu kompleks dan Bloom Filter diidentifikasi tidak relevan untuk pemodelan probabilitas. |
-| 2   | Mengembangkan kode program simulasi Monte Carlo beserta visualisasi distribusinya | Gemini | "buat notebook dengan monte carlo simulation" | Kode yang dihasilkan diadopsi sebagai basis komputasi untuk memprediksi risiko keterlambatan pada 1.000 PR baru melalui 10.000 kali iterasi bootstrap, sekaligus menentukan nilai interval kepercayaan 95%. |
+| 2   | Mengembangkan kode program simulasi Monte Carlo beserta visualisasi distribusinya | Gemini | "buat notebook dengan montecarlo simulation" | Kode yang dihasilkan diadopsi sebagai basis komputasi untuk memprediksi risiko keterlambatan pada 1.000 PR baru melalui 10.000 kali iterasi bootstrap, sekaligus menentukan nilai interval kepercayaan 95%. |
 
 ## Group Reflection (150–300 words)
 
