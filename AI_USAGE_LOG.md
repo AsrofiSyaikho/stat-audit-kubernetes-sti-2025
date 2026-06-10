@@ -5,6 +5,10 @@
 | Member | Role          | Tools           | ~% code AI-assisted | Interpretation cells AI-assisted? |
 | ------ | ------------- | --------------- | ------------------- | --------------------------------- |
 | Muhammad Asrofi Syaikho | Data Engineer | Claude, Gemini | 75% | No |   
+| Amila Zahira | Estimation Analyst | Claude, Gemini | 65% | No | 
+| Mukgot Ega Sahputra | Inference Analyst | Claude, Gemini | 80% | No | 
+| Nabila Nurfajriyasah | Hypothesis Analyst | Claude, Gemini | 85% | No | 
+| Nabil Farhan Widodo | Computation Analyst | Claude, Gemini | 90% | No | 
 
 ## Per-Member Detail
 
