@@ -9,7 +9,7 @@ Repositori ini berisi audit statistik menyeluruh terhadap proyek open-source `ku
 ## Research Questions
 
 ### 1. Estimation Layer  
-Berapa estimasi probabilitas sebuah issue yang masuk memiliki label bug, dan berapa rata-rata harian frekuensi Pull Request (PR) baru yang dibuka di repositori Kubernetes?
+Berapa probabilitas sebuah Pull Request berhasil di-merge, dan berapa rata-rata jumlah issue baru yang muncul pada repositori Kubernetes?"
 
 ### 2. Inference / Testing Layer  
 Apakah terdapat perbedaan waktu penyelesaian (*time-to-close*) yang signifikan secara statistik antara issue yang berlabel bug dengan issue yang non-bug?
@@ -21,7 +21,10 @@ Berapa probabilitas sebuah Pull Request (PR) baru akan membutuhkan waktu lebih d
 
 ## Findings
 
-> Akan diisi setelah semua layer selesai pada 10 Juni 2026
+- Tingkat keberhasilan merge PR sebesar 57,2%
+- Rata-rata penyelesaian issue (34,40 hari) melebihi batas wajar 30 hari secara signifikan
+- Waktu penyelesaian (time-to-close) antara issue yang berlabel bug dengan issue yang non-bug tidak signifikan
+- Simulasi Monte Carlo (20.000 iterasi) menunjukkan probabilitas 83,60% bahwa rata-rata PR akan membutuhkan lebih dari 14 hari untuk di-merge
 
 ---
 
