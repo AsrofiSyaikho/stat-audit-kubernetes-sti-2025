@@ -31,8 +31,6 @@
 
 ### Member D — [Nabila Nurfajriyasah]
 
-## AI Usage Disclosure
-
 | # | Task | Tool | Prompt | How output was used |
 |---|------|------|--------|---------------------|
 | 1 | Pembuatan fungsi struktural untuk Z-test | Claude | "Buatlah kode program untuk tugas Anggota D dengan menggunakan kumpulan data yang disiapkan oleh Anggota A." | digunakan sebagai kerangka awal untuk berkas hypothesis.py, di mana fungsi z_test_one_sample dan z_test_two_sample diimplementasikan secara langsung sesuai dengan spesifikasinya. |
