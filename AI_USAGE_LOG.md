@@ -36,7 +36,18 @@
 | 1 | Pembuatan fungsi struktural untuk Z-test | Claude | "Buatlah kode program untuk tugas Anggota D dengan menggunakan kumpulan data yang disiapkan oleh Anggota A." | digunakan sebagai kerangka awal untuk berkas hypothesis.py, di mana fungsi z_test_one_sample dan z_test_two_sample diimplementasikan secara langsung sesuai dengan spesifikasinya. |
 | 2 | Memverifikasi kebenaran rumus statistik Z | Claude | "Apakah kode ini sudah benar dan sesuai?" | Digunakan untuk memastikan bahwa baik rumus matematika maupun fungsi struktural benar-benar sudah sesuai dengan yang diminta. |
 
-_(repeat for all five members)_
+### Member E — [Farhan Nabil Widodo]
+
+| #   | Task | Tool | Prompt | How output was used |
+| --- | ---- | ---- | ------ | ------------------- |
+| 1   | Menentukan metode simulasi yang paling relevan untuk estimasi durasi Pull Request (PR) | Gemini | "menurut lu mana yg paling cocok dari simulasi buat notebook 1.montecarlo 2.mcmc 3.blumfilter" | Digunakan sebagai bahan pertimbangan ilmiah dalam memilih metode. Hasilnya, Monte Carlo dipilih karena sesuai dengan karakteristik data empiris, sementara MCMC dinilai terlalu kompleks dan Bloom Filter diidentifikasi tidak relevan untuk pemodelan probabilitas. |
+| 2   | Mengembangkan kode program simulasi Monte Carlo beserta visualisasi distribusinya | Gemini | "lanjutkan notebook diatas dengan monte carlo simulation" | Kode yang dihasilkan diadopsi sebagai basis komputasi untuk memprediksi risiko keterlambatan pada 1.000 PR baru melalui 10.000 kali iterasi bootstrap, sekaligus menentukan nilai interval kepercayaan 95%. |
+
+## Group Reflection (150–300 words)
+
+How did your group's use of AI evolve over three weeks? What did AI handle well?
+Where did output need significant correction? Was there a moment you chose _not_
+to use AI — and why?_(repeat for all five members)_
 
 ## Group Reflection (150–300 words)
 
