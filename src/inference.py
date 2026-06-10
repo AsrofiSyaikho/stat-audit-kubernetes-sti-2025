@@ -19,7 +19,7 @@ import numpy as np
 from scipy.stats import norm
 from scipy.stats import beta as beta_dist
 
-from estimator import (
+from src.estimator import (
     mle_bernoulli,
     mle_poisson,
     beta_posterior,
