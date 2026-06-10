@@ -29,6 +29,15 @@
 | 1 | Membantu mencari tau apa itu Confidence Interval pada konteks Statistika & Probabilitas | Gemini | "Apa itu Confidence Interval dengan konteks berdasarkan dari objektif yang telah di paparkan pada file .MD" | Output digunakan untuk membantu saya memahami apa itu confidence interval agar tidak terjadinya keluar jalur objektif |  
 | 2 | Membantu membuat boilerplate code untuk inference dan confidence_interval | Claude | Generate saya code python dan ipynb mengenai confidence_interval berdasarkan konteks pada file .MD dan objektif research question yang saya berikan | Output digunakan untuk membantu saya membuat file confidence_interval dan inference |
 
+### Member D — [Nabila Nurfajriyasah]
+
+## AI Usage Disclosure
+
+| # | Task | Tool | Prompt | How output was used |
+|---|------|------|--------|---------------------|
+| 1 | Pembuatan fungsi struktural untuk Z-test | Claude | "Buatlah kode program untuk tugas Anggota D dengan menggunakan kumpulan data yang disiapkan oleh Anggota A." | digunakan sebagai kerangka awal untuk berkas hypothesis.py, di mana fungsi z_test_one_sample dan z_test_two_sample diimplementasikan secara langsung sesuai dengan spesifikasinya. |
+| 2 | Memverifikasi kebenaran rumus statistik Z | Claude | "Apakah kode ini sudah benar dan sesuai?" | Digunakan untuk memastikan bahwa baik rumus matematika maupun fungsi struktural benar-benar sudah sesuai dengan yang diminta. |
+
 _(repeat for all five members)_
 
 ## Group Reflection (150–300 words)
