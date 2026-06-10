@@ -9,7 +9,7 @@ Repositori ini berisi audit statistik menyeluruh terhadap proyek open-source `ku
 ## Research Questions
 
 ### 1. Estimation Layer  
-Berapa probabilitas sebuah Pull Request berhasil di-merge, dan berapa rata-rata jumlah issue baru yang muncul pada repositori Kubernetes?"
+Berapa probabilitas sebuah Pull Request berhasil di-merge, dan berapa rata-rata jumlah issue baru yang muncul pada repositori Kubernetes?
 
 ### 2. Inference / Testing Layer  
 Apakah terdapat perbedaan waktu penyelesaian (*time-to-close*) yang signifikan secara statistik antara issue yang berlabel bug dengan issue yang non-bug?
